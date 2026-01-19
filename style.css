@@ -300,27 +300,53 @@ body::before {
     display: none;
 }
 
-/* Responsive */
+/* Responsive Design - Mobile Optimized */
 @media (max-width: 600px) {
     .main-button {
-        width: 140px;
-        height: 140px;
-        font-size: 0.85rem;
+        width: 200px;
+        /* Significantly larger */
+        height: 200px;
+        font-size: 1.4rem;
+        /* Larger text */
+        box-shadow:
+            -3px -3px 8px rgba(255, 255, 255, 0.03),
+            3px 3px 8px rgba(0, 0, 0, 0.5),
+            inset 1px 1px 2px rgba(255, 255, 255, 0.05);
     }
 
     .message-area {
-        font-size: 1rem;
-        padding: 0 2rem;
-        top: 22%;
+        top: 18%;
+        /* Slightly higher to leave room for big button */
+        font-size: 1.35rem;
+        /* More readable */
+        max-width: 90%;
+        /* Use full width */
+        line-height: 1.6;
     }
 
     .counters {
-        gap: 3rem;
         bottom: 20%;
+        /* Move down slightly */
+        gap: 3rem;
     }
 
     .counter-value {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
+    }
+
+    .record-label {
+        font-size: 0.8rem;
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .mute-button {
+        bottom: 1.5rem;
+        left: 1.5rem;
+    }
+
+    .share-button {
+        bottom: 1.5rem;
     }
 }
 
