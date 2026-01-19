@@ -1,0 +1,19 @@
+{
+  "name": "press-and-question",
+  "version": "1.0.0",
+  "description": "An interactive pressing game with analytics",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server",
+    "build": "echo 'No build needed for static site'",
+    "start": "http-server"
+  },
+  "keywords": [
+    "interactive",
+    "game",
+    "analytics"
+  ],
+  "author": "roskva000",
+  "license": "MIT",
+  "devDependencies": {}
+}
